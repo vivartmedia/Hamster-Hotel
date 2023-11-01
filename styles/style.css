@@ -13,9 +13,16 @@
           position: relative;
 overflow: hidden;
  top: 0%;
-        clip-path: inset(35% 0% 26% 0%)         
+        clip-path: inset(35% 0% 26% 0%);
+        margin-bottom: -280px;
 }
 
 .headerImgPos{
     margin-bottom: -22.9%;
+}
+
+.hamsterhomejpg {
+    height: 80%;
+    clip-path: inset(10% 0% 12% 0%);
+    
 }
