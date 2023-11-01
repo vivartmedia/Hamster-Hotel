@@ -1,7 +1,21 @@
 @font-face {
-    font-family: inria serif;
-    src: url(../Inria_Serif/InriaSerif-Regular.ttf);
-
+    font-family: Dosis_Regular;
+    src: url(../Dosis/static/Dosis-Regular.ttf);
+}
 .navBar{
-    font-family: ;
+    font-family: Dosis_Regular;
+    color: #ffffff;
+}
+
+
+.headerImg{
+    width: 100%;
+          position: relative;
+overflow: hidden;
+ top: 0%;
+        clip-path: inset(35% 0% 26% 0%)         
+}
+
+.headerImgPos{
+    margin-bottom: -22.9%;
 }
