@@ -2,27 +2,249 @@
     font-family: Dosis_Regular;
     src: url(../Dosis/static/Dosis-Regular.ttf);
 }
-.navBar{
+
+.navBar {
     font-family: Dosis_Regular;
     color: #ffffff;
+    font-size: 20px;
 }
 
+.logo-size{
+    height: 110px;
+    width: 143px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+/* .headerImg {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    top: 0%;
+    clip-path: inset(35% 0% 26% 0%);
+    margin-bottom: -280px;
+} */
 
 .headerImg{
     width: 100%;
-          position: relative;
-overflow: hidden;
- top: 0%;
-        clip-path: inset(35% 0% 26% 0%);
-        margin-bottom: -280px;
+    height: 500px;
+    object-fit: cover;
+
 }
 
-.headerImgPos{
-    margin-bottom: -22.9%;
+
+
+
+
+
+
+
+.content {
+    color: #fff;
+    /* Text color */
+    text-align: center;
+    padding: 20px;
+}
+
+
+.overlay-text {
+    position: absolute; /* Position the h1 element absolutely */
+    top: 300px; /* Center vertically */
+   left: 50%; /* Center horizontally */
+   transform: translate(-50%, -50%); /* Center the element perfectly */
+    color: white; /* Text color */
+    background-color:#00032485; /* Background color with transparency */
+    width: 50%;
+    height: 20%;
+   padding: 70px; /* Padding around the text */
+    text-align: center;
+    font-family:Dosis_Regular ;
+    font-size: 45px;
+}
+.overlay-text-paragraph{
+        position: absolute;
+        /* Position the h1 element absolutely */
+        top: 300px;
+        /* Center vertically */
+        left: 50%;
+        /* Center horizontally */
+        transform: translate(-50%, -50%);
+        /* Center the element perfectly */
+        color: white;
+        /* Text color */
+        /* background-color: #00032485; */
+        /* Background color with transparency */
+        width: 50%;
+        height: 20%;
+        top: 430px;
+        /* padding: 350px; */
+        /* Padding around the text */
+        text-align: center;
+        font-family: Dosis_Regular;
+        font-size: 16px;
+    }
+
+.packageImg{
+    width: 561px;
+    height: 234px;
+    object-fit: cover;
+}
+
+.packageP25{
+    font-family: Dosis_Regular;
+    font-size: 25px;
+}
+
+.headerImgPos {
+    /* margin-bottom: -22.9%; */
 }
 
 .hamsterhomejpg {
-    height: 80%;
-    clip-path: inset(10% 0% 12% 0%);
+    /* height: 80%;
+    clip-path: inset(10% 0% 12% 0%); */
+   
+            width: 450px;
+            height: 520px;
+            /* object-fit: cover; */
+            padding: 50px;
+            position: relative;
+            object-fit: cover;
+            
+        
+
+}
+
+
+
+
+.background1 {
+    background-image: url(/assets/bg2.jpg);
+width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.background2 {
+    background-image: url(/assets/bg.jpg);
+    width: 100%;
+    height: 500px;
+    /* Set the maximum height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background-footer{
+        background-color: #000324;
+            width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            /* min-height: 700px; */
+            background-size: cover;
+            background-position: center;
+        }
+}
+
+
+.card {
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+}
+
+.ourRoomsText{
+    text-align: center;
+    color: #ffffff;
+    font-family: Dosis_Regular;
+    margin-top: 31px;
+}
+
+.card3Images{
+    width: 369px;
+        height: 190px;
+        object-fit: cover;
+}
+.card-title{
+    font-family: Dosis_Regular;
+    font-size: 25px;
+    color: #1A1B26;
+}
+.card-title-description {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #1A1B26;
+}
+.card-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+   
+    line-height: 40px;
+    list-style: none;
+        padding: 0;
+}
+
+
+
+.btn-primary{
+    font-size: 20px;
+    border-radius: 0;
+    background-color: #004CC7;
+    position: absolute;
+        bottom: 20px;
+        left: 30px;
+     
+        width: 150px;
+        height: 50px;
+}
+
+.packagesTitle{
+    position: relative;
+    left: 37%; 
+    margin-bottom: 20px;
+    font-family: Dosis_Regular;
+    font-size: 35px;
+}
+
+.packagesPtexts{
+        font-family: Dosis_Regular;
+            font-size: 16px;
+}
+
+.amenities-Parag{
+    color: #FFFFFF;
+    text-align: center;
+   
     
 }
+
+.amenities-Icons-Texts{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+}
+
+.hamsterreserve{
+             
+                    height: 520px;
+                    object-fit: cover;
+                    padding: 50px;
+                    position: relative;                 
+}
+
+.container-with-background {
+    background-color: #000324;
+    width: 1137px;
+   
+    /* Set the background color to blue */
+    /* padding: 0px; */
+    /* Add padding to create some space around the row */
+}
+
