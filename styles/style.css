@@ -148,7 +148,7 @@ width: 100%;
             background-size: cover;
             background-position: center;
         }
-}
+
 
 
 .card {
@@ -222,7 +222,27 @@ width: 100%;
    
     
 }
+/* Custom CSS for the image container */
+.amenities-image-container {
+    width: 600px;
+    /* Set the width of the container */
+    height: 350px;
+    /* Set the height of the container */
+    display: flex;
+    /* Hide any overflowing content */
+    
+}
 
+/* Custom CSS for the image */
+.amenities-custom-image {
+    width: 40%;
+    /* Make the image width 100% of the container */
+    height: 40%;
+    /* Make the image height 100% of the container */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+    align-items: center;
+}
 .amenities-Icons-Texts{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
@@ -230,7 +250,14 @@ width: 100%;
     padding: 25px;
     text-align: center;
 }
-
+.Reserve-aRoom-button{
+    width: 177px;
+    height: 38px;
+    background-color: #006EDB;
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
 .hamsterreserve{
              
                     height: 520px;
@@ -247,4 +274,19 @@ width: 100%;
     /* padding: 0px; */
     /* Add padding to create some space around the row */
 }
+.background3{
+    background-color: #000324;
+    margin-bottom: 100px;
+        width: 100%;
+            height: 300px;
+            /* Set the maximum height */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;    
+}
 
+.logoFooter{
+    position: relative;
+    left: 47%;
+    padding: 20px;
+}
