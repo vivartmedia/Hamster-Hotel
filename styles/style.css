@@ -9,7 +9,7 @@
     font-size: 20px;
 }
 
-.logo-size{
+.logo-size {
     height: 110px;
     width: 143px;
     padding-top: 5px;
@@ -18,18 +18,38 @@
     margin-right: 40px;
 }
 
-
-
-/* .headerImg {
-    width: 100%;
+.containerHeaderImage{
     position: relative;
-    overflow: hidden;
-    top: 0%;
-    clip-path: inset(35% 0% 26% 0%);
-    margin-bottom: -280px;
-} */
+    width: 100%;
+    height: 500px;
+    background-image: url(/assets/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overlayHeaderImage{
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.7); 
+      padding: 50px; 
+      text-align: center;
+      color: white; 
+}
+.overlay-text {
+    font-family: Dosis_Regular;
+    font-size: 34px;
+    margin: 0;
+}
+  .overlay-text-paragraph {
+    font-family: Dosis_Regular;
+    font-size: 14px;
+    margin-top: 10px;
+  }
 
-.headerImg{
+
+.headerImg {
     width: 100%;
     height: 500px;
     object-fit: cover;
@@ -45,56 +65,20 @@
 
 .content {
     color: #fff;
-    /* Text color */
     text-align: center;
     padding: 20px;
 }
 
 
-.overlay-text {
-    position: absolute; /* Position the h1 element absolutely */
-    top: 300px; /* Center vertically */
-   left: 50%; /* Center horizontally */
-   transform: translate(-50%, -50%); /* Center the element perfectly */
-    color: white; /* Text color */
-    background-color:#00032485; /* Background color with transparency */
-    width: 50%;
-    height: 20%;
-   padding: 70px; /* Padding around the text */
-    text-align: center;
-    font-family:Dosis_Regular ;
-    font-size: 45px;
-}
-.overlay-text-paragraph{
-        position: absolute;
-        /* Position the h1 element absolutely */
-        top: 300px;
-        /* Center vertically */
-        left: 50%;
-        /* Center horizontally */
-        transform: translate(-50%, -50%);
-        /* Center the element perfectly */
-        color: white;
-        /* Text color */
-        /* background-color: #00032485; */
-        /* Background color with transparency */
-        width: 50%;
-        height: 20%;
-        top: 430px;
-        /* padding: 350px; */
-        /* Padding around the text */
-        text-align: center;
-        font-family: Dosis_Regular;
-        font-size: 16px;
-    }
 
-.packageImg{
+
+.packageImg {
     width: 561px;
     height: 234px;
     object-fit: cover;
 }
 
-.packageP25{
+.packageP25 {
     font-family: Dosis_Regular;
     font-size: 25px;
 }
@@ -104,190 +88,187 @@
 }
 
 .hamsterhomejpg {
-    /* height: 80%;
-    clip-path: inset(10% 0% 12% 0%); */
-   
-            width: 450px;
-            height: 520px;
-            /* object-fit: cover; */
-            padding: 50px;
-            position: relative;
-            object-fit: cover;
-            
-        
-
+    width: 450px;
+    height: 520px;
+    padding: 50px;
+    position: relative;
+    object-fit: cover;
 }
 
 
+.background2 {
+    background-image: url(/assets/bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background-footer {
+    background-color: #000324;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    margin-top: 20px;
+}
 
 
 .background1 {
     background-image: url(/assets/bg2.jpg);
-width: 100%;
+    width: 100%;
     height: 500px;
     background-repeat: no-repeat;
     min-height: 700px;
     background-size: cover;
     background-position: center;
 }
-.background2 {
-    background-image: url(/assets/bg.jpg);
+
+.card3Images {
     width: 100%;
-    height: 500px;
-    /* Set the maximum height */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.background-footer{
-        background-color: #000324;
-            width: 100%;
-            height: 300px;
-            background-repeat: no-repeat;
-            /* min-height: 700px; */
-            background-size: cover;
-            background-position: center;
-        }
-
-
-
-.card {
-    margin-top: 20px;
-    /* Adjust the margin as needed */
+    height: 300px; 
+    object-fit: cover;
 }
 
-.ourRoomsText{
-    text-align: center;
-    color: #ffffff;
-    font-family: Dosis_Regular;
-    margin-top: 31px;
+.card-body {
+    padding: 1.25rem; 
 }
 
-.card3Images{
-    width: 369px;
-        height: 190px;
-        object-fit: cover;
-}
-.card-title{
+.card-title {
     font-family: Dosis_Regular;
     font-size: 25px;
     color: #1A1B26;
 }
+
 .card-title-description {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
     font-size: 14px;
     color: #1A1B26;
 }
-.card-text{
+
+.card-text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
     text-align: left;
-   
-    line-height: 40px;
+    line-height: 1.5; 
     list-style: none;
-        padding: 0;
+    padding: 0;
 }
 
-
-
-.btn-primary{
-    font-size: 20px;
-    border-radius: 0;
-    background-color: #004CC7;
-    position: absolute;
-        bottom: 20px;
-        left: 30px;
-     
-        width: 150px;
-        height: 50px;
-}
-
-.packagesTitle{
+.packagesTitle {
     position: relative;
-    left: 37%; 
+    left: 37%;
     margin-bottom: 20px;
     font-family: Dosis_Regular;
     font-size: 35px;
 }
 
-.packagesPtexts{
-        font-family: Dosis_Regular;
-            font-size: 16px;
+.packagesPtexts {
+    font-family: Dosis_Regular;
+    font-size: 16px;
 }
 
-.amenities-Parag{
+.amenities-Parag {
     color: #FFFFFF;
     text-align: center;
-   
-    
-}
-/* Custom CSS for the image container */
-.amenities-image-container {
-    width: 600px;
-    /* Set the width of the container */
-    height: 350px;
-    /* Set the height of the container */
-    display: flex; 
-    /* Hide any overflowing content */
-    
 }
 
-/* Custom CSS for the image */
-.amenities-custom-image {
-   margin-top: 40px;
-    width: 50%;
-    /* Make the image width 100% of the container */
-    height: 50%;
-    /* Make the image height 100% of the container */
-    object-fit:contain;
-    /* Maintain aspect ratio and cover the container */
-   left: 40%;
+.amenities-image-container {
+    width: 600px; 
+    height: 350px;
+    display: flex;
 }
-.amenities-Icons-Texts{
+
+.amenities-custom-image {
+    margin-top: 40px;
+    width: 50%;
+     height: 50%;
+    object-fit: contain;
+    left: 40%;
+}
+
+.amenities-Icons-Texts {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     color: #FFFFFF;
     padding: 25px;
     text-align: center;
 }
-.Reserve-aRoom-button{
-    width: 177px;
-    height: 38px;
-    background-color: #006EDB;
-    color: #FFFFFF;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-}
-.hamsterreserve{
-             
-                    height: 520px;
-                    object-fit: cover;
-                    padding: 50px;
-                    position: relative;                 
-}
+
+
+
+
+
+/* Styles for Reserve a Room Section */
 
 .container-with-background {
     background-color: #000324;
-    width: 1137px;
-   
-    /* Set the background color to blue */
-    /* padding: 0px; */
-    /* Add padding to create some space around the row */
-}
-.background3{
+    padding: 20px;
+    border-radius: 0; /* Remove border-radius */
+  }
+  
+  .ourRoomsText {
+    text-align: center;
+    color: #ffffff;
+    font-family: Dosis_Regular;
+    margin-top: 31px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color:ffffff;
+    color: #ffffff;
+  }
+  
+  .Reserve-aRoom-button {
+    width: 100%;
+    height: 38px;
+    background-color: #006EDB;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .hamsterreserve {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+
+
+
+
+
+.background3 {
     background-color: #000324;
     margin-bottom: 100px;
-        width: 100%;
-            height: 300px;
-            /* Set the maximum height */
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;    
+    width: 100%;
+    height: 300px;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.logoFooter{
+.logoFooter {
     position: relative;
     left: 47%;
     padding: 20px;
 }
+
+
+
+
+
+
